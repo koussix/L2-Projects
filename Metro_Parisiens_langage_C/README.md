@@ -31,7 +31,9 @@
         le fichier lecture.c.
 
     2. Lecture.c : contient la partie du code qui se chargera de la
-        lecture du fichier metro.txt et du remplissage du graphe.Graphe.h : contient les différentes structures
+        lecture du fichier metro.txt et du remplissage du graphe.
+    
+    2. Graphe.h : contient les différentes structures
         manipulés dans notre conception du graphe (
         sommet, arc , graphe) en plus de la structure
         Dijkstra et une structure de liste ‘chemin’
