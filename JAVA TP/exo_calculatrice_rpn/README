@@ -1,0 +1,17 @@
+Explication :
+
+Pour les exception j'ai soulever les cas suivants : 
+ -Valeur supérieur a ValMax ----> MaxValueException
+ -Valeur inférieur a ValMin ----> MinValueException
+ J'ai organisé les 2 exception en hièrarchie tel que les 2exceptions héritent de la class ValueException qui elle même hérite de la class Exception.
+
+ -Pas assez d'operandes pour appliquer une operation ----> FewOperandesException
+ -On rentre un symbole qui n'est pas compris dans les l'enum Operation ---> FewOperationException ( j'aurai pu l'appeler autrement c'est juste pour etre dans l'esprit de la première ).
+ -On rentre un 0 0 / (1ere operande a 0) -------> DivisionPar0Exception
+
+Exemple d'execution : 
+ L'utilisateur saisit :  2 3 +
+ Réponse du programme:>  2.0
+                      >  2.0  3.0 (enregistrement dans la pile)
+                      >  5.0 (operation + appliqué)
+
