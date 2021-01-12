@@ -1,0 +1,17 @@
+
+Compilation, execution :
+	2 Methodes :
+		1 - En ligne de commande :
+			-Il faut se positionner dans le dossier src/
+			-Compiler en utilisant la commande : javac *.java
+			-Executer en utilisant la commande : java DnsApp
+
+		2 - En utilisant un IDE ( Intellij,ECLIPS ).
+
+Explication générale :
+	
+	-Pour les commandes acceptés par le programme comme dit dans l'ennoncé : 
+		-Saisir une AdresseIP nous retournera un Item ( affichage à l'ecran dans mon cas et ajout dans List<DnsItem> collectionDns ).
+		-Meme chose pour la saisie d'un nomMachine.
+		-Dans le cas de la saisie d'un 'ls domaine' ou 'ls -a domaine' on aura comme dit dans l'ennoncé un retour de notre liste d'item et un affichage de cette liste. (J'ai pris en considération que le domaine est la chaine saisie après le nom qualifié de machine ). Si on saisie 'ls chezmoi' il ne sera pas reconnu car il ya dans le Bdd.txt 2 variante de ce nom domaine 'chezmoi.fr chezmoi.com', il faut donc saisir 'ls chezmoi.fr' pour avoir la liste.
+ 		- Saisir 'quit' pour quitter l'application.

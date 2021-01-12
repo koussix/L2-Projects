@@ -1,0 +1,5 @@
+200.168.0.1 ordinateur.chezmoi.fr
+200.168.0.3 monserveur.chezmoi.fr
+192.168.0.4 imprimante.chezmoi.fr
+192.168.1.1 koceila.labchri.uvsq
+255.168.1.2 television.chezmoi.com
