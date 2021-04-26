@@ -6,7 +6,7 @@ int main(int argc, char** argv){
 
 dis d2;
 d2=distance_2(argv[1]);
-//affiche_dis(d2);
+
 seq *tab_seq=stockage_seq(argv[1]);
 Tri_d *tab=NULL;
 tab=copie_trie(d2,tab);
