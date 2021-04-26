@@ -6,7 +6,7 @@
 
 dis creer_distance(){
 	dis di;
-	di.mat=NULL;
+	di.mat= NULL;
 		
 return di;
 }
